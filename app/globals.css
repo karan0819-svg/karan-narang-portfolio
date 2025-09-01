@@ -1,0 +1,94 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* *=========== Subtle Blue & Mint Theme =========== */
+/* Based on your provided colors:
+  -- Blue: #106EBE -> hsl(211, 82%, 40%)
+  -- Mint: #0FFCBE -> hsl(165, 99%, 52%)
+  -- Light Gray: #F0F0F0 -> hsl(0, 0%, 94%)
+  -- White: #FFFFFF -> hsl(0, 0%, 100%)
+*/
+@layer base {
+  :root {
+    --background: 0 0% 100%; /* White */
+    --foreground: 211 25% 15%; /* Dark, desaturated blue for text */
+
+    --card: 0 0% 100%; /* White */
+    --card-foreground: 211 25% 15%;
+
+    --popover: 0 0% 100%; /* White */
+    --popover-foreground: 211 25% 15%;
+
+    --primary: 211 82% 40%; /* Blue */
+    --primary-foreground: 0 0% 98%; /* Light text on blue */
+
+    --secondary: 0 0% 94%; /* Light Gray */
+    --secondary-foreground: 211 25% 15%;
+
+    --muted: 0 0% 94%; /* Light Gray */
+    --muted-foreground: 211 15% 45%; /* A lighter, muted version of the foreground text */
+
+    --accent: 165 99% 52%; /* Mint */
+    --accent-foreground: 211 25% 15%; /* Dark text on mint */
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 0 0% 88%; /* Slightly darker gray for borders */
+    --input: 0 0% 88%;
+    --ring: 211 82% 40%; /* Blue */
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 211 25% 10%; /* Very dark blue */
+    --foreground: 0 0% 94%; /* Light Gray for text */
+
+    --card: 211 25% 15%; /* Slightly lighter dark blue */
+    --card-foreground: 0 0% 94%;
+
+    --popover: 211 25% 10%;
+    --popover-foreground: 0 0% 94%;
+
+    --primary: 211 82% 50%; /* A slightly lighter blue for better contrast */
+    --primary-foreground: 211 25% 10%; /* Dark text on primary */
+
+    --secondary: 211 25% 15%;
+    --secondary-foreground: 0 0% 94%;
+
+    --muted: 211 25% 15%;
+    --muted-foreground: 0 0% 60%; /* A medium gray for less important text */
+
+    --accent: 165 99% 52%; /* Mint */
+    --accent-foreground: 211 25% 10%;
+
+    --destructive: 0 72.2% 50.6%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 211 25% 25%; /* Lighter border for contrast */
+    --input: 211 25% 25%;
+    --ring: 165 99% 52%; /* Mint for a high-contrast ring */
+  }
+}
+
+.shadow-light {
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.085);
+}
+
+.shadow-dark {
+  box-shadow: inset 0 0 5px rgba(255, 255, 255, 0.141);
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
