@@ -54,7 +54,7 @@ export default function Home() {
       {/* <CommunitySection /> */}
       {/* <PricingSection /> */}
       <ContactSection />
-      <FAQSection />
+      {/* <FAQSection /> */}
       <FooterSection />
     </>
   );
