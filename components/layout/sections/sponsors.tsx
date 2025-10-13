@@ -1,70 +1,61 @@
 "use client";
 
-import { Icon } from "@/components/ui/icon";
 import { Marquee } from "@devnomic/marquee";
 import "@devnomic/marquee/dist/index.css";
-import { icons } from "lucide-react";
+
 interface sponsorsProps {
-  icon: string;
   name: string;
 }
 
 const sponsors: sponsorsProps[] = [
   {
-    icon: "Crown",
-    name: "Acmebrand",
+    name: "UDHHU",
   },
   {
-    icon: "Vegan",
-    name: "Acmelogo",
+    name: "HYPEDEVI",
   },
   {
-    icon: "Ghost",
-    name: "Acmesponsor",
+    name: "Balfe",
   },
   {
-    icon: "Puzzle",
-    name: "Acmeipsum",
+    name: "WorkSpaceCo.",
   },
   {
-    icon: "Squirrel",
-    name: "Acme",
+    name: "WESTCODE",
   },
   {
-    icon: "Cookie",
-    name: "Accmee",
+    name: "SILBERRY",
   },
   {
-    icon: "Drama",
-    name: "Acmetech",
+    name: "STEPLE",
+  },
+  {
+    name: "UDHHU",
+  },
+  {
+    name: "HYPEDEVI",
   },
 ];
 
 export const SponsorsSection = () => {
   return (
     <section id="sponsors" className="max-w-[75%] mx-auto pb-24 sm:pb-32">
-      <h2 className="text-lg md:text-xl text-center mb-6">
-        Our Platinum Sponsors
+      <h2 className="text-lg md:text-xl text-center mb-8 text-muted-foreground font-medium">
+        Trusted by Leading D2C Brands
       </h2>
 
       <div className="mx-auto">
         <Marquee
-          className="gap-[3rem]"
+          className="gap-[4rem]"
           fade
-          innerClassName="gap-[3rem]"
+          innerClassName="gap-[4rem]"
           pauseOnHover
         >
-          {sponsors.map(({ icon, name }) => (
+          {sponsors.map(({ name }, index) => (
             <div
-              key={name}
-              className="flex items-center text-xl md:text-2xl font-medium"
+              key={`${name}-${index}`}
+              className="flex items-center text-xl md:text-2xl font-bold tracking-wider text-foreground/70 hover:text-foreground transition-colors"
             >
-              <Icon
-                name={icon as keyof typeof icons}
-                size={32}
-                color="white"
-                className="mr-2"
-              />
               {name}
             </div>
           ))}

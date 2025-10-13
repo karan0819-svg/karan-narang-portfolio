@@ -7,8 +7,22 @@ import { ThemeProvider } from "@/components/layout/theme-provider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Shadcn - Landing template",
-  description: "Landing template from Shadcn",
+  title: {
+    default: "Karan Narang - Performance Marketing & Meta Ads Specialist",
+    template: "%s | Karan Narang",
+  },
+  description:
+    "Trusted Meta Partner driving ₹175 Crore+ in revenue for D2C brands. Expert in Meta Ads, performance marketing, and ROAS-focused scaling strategies.",
+  keywords: [
+    "Performance Marketing",
+    "Meta Ads Specialist",
+    "D2C Marketing",
+    "E-commerce Growth",
+    "Facebook Ads Expert",
+    "Instagram Ads",
+    "ROAS Optimization",
+    "Digital Marketing Consultant",
+  ],
 };
 
 export default function RootLayout({
@@ -17,7 +31,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="pt-br" suppressHydrationWarning>
+    <html lang="en" suppressHydrationWarning>
       <body className={cn("min-h-screen bg-background", inter.className)}>
         <ThemeProvider
           attribute="class"

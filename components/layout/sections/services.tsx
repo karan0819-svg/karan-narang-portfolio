@@ -1,79 +1,90 @@
-import { Badge } from "@/components/ui/badge";
-import {
-  Card,
-  CardDescription,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Icon } from "@/components/ui/icon";
+import { icons } from "lucide-react";
 
-enum ProService {
-  YES = 1,
-  NO = 0,
-}
-interface ServiceProps {
+interface FeaturesProps {
+  icon: string;
   title: string;
-  pro: ProService;
   description: string;
 }
-const serviceList: ServiceProps[] = [
+
+const featureList: FeaturesProps[] = [
   {
-    title: "Custom Domain Integration",
+    icon: "BrainCircuit",
+    title: "Data-Driven Strategy",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit adipisicing.",
-    pro: 0,
+      "Every campaign is built on a foundation of data, from audience insights to market trends, ensuring your budget is invested for maximum impact.",
   },
   {
-    title: "Social Media Integrations",
+    icon: "TrendingUp",
+    title: "ROAS-Focused Scaling",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae, dicta.",
-    pro: 0,
+      "Growth is about scaling profitably. We meticulously monitor Return on Ad Spend (ROAS) to scale your campaigns aggressively without sacrificing efficiency.",
   },
   {
-    title: "Email Marketing Integrations",
-    description: "Lorem dolor sit amet adipisicing.",
-    pro: 0,
+    icon: "Waypoints",
+    title: "Full-Funnel Mastery",
+    description:
+      "From building brand awareness to driving final conversions and retargeting, we manage the entire customer journey to ensure no opportunity is missed.",
   },
   {
-    title: "SEO Optimization",
-    description: "Lorem ipsum dolor sit amet consectetur.",
-    pro: 1,
+    icon: "WandSparkles",
+    title: "High-Impact Creatives",
+    description:
+      "Your ads need to stop the scroll. We focus on developing compelling, mobile-first creatives that resonate with your audience and drive action.",
+  },
+  {
+    icon: "Cog",
+    title: "Advanced Technical Setup",
+    description:
+      "We ensure flawless tracking with expert implementation of Meta Pixel, Conversion APIs, and catalog ads for a robust advertising ecosystem.",
+  },
+  {
+    icon: "Handshake",
+    title: "A True Growth Partner",
+    description:
+      "We work as an extension of your team, providing transparent communication and a genuine commitment to helping your business achieve its goals.",
   },
 ];
 
 export const ServicesSection = () => {
   return (
     <section id="services" className="container py-24 sm:py-32">
-      <h2 className="text-lg text-primary text-center mb-2 tracking-wider">
-        Services
+      <h2 className="text-lg text-primary text-center mb-2 tracking-wider uppercase font-semibold">
+        Our Services
       </h2>
 
-      <h2 className="text-3xl md:text-4xl text-center font-bold mb-4">
-        Grow Your Business
+      <h2 className="text-3xl md:text-4xl lg:text-5xl text-center font-extrabold mb-4">
+        Your Strategic Growth Partner
       </h2>
-      <h3 className="md:w-1/2 mx-auto text-xl text-center text-muted-foreground mb-8">
-        From marketing and sales to operations and strategy, we have the
-        expertise to help you achieve your goals.
+
+      <h3 className="md:w-1/2 mx-auto text-xl text-center text-muted-foreground mb-12">
+        We combine data-driven strategies with creative excellence to turn ad
+        spend into measurable revenue and sustainable growth for your brand.
       </h3>
-      <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4"></div>
 
-      <div className="grid sm:grid-cols-2 lg:grid-cols-2 gap-4 w-full lg:w-[60%] mx-auto">
-        {serviceList.map(({ title, description, pro }) => (
-          <Card
-            key={title}
-            className="bg-muted/60 dark:bg-card h-full relative"
-          >
-            <CardHeader>
-              <CardTitle>{title}</CardTitle>
-              <CardDescription>{description}</CardDescription>
-            </CardHeader>
-            <Badge
-              data-pro={ProService.YES === pro}
-              variant="secondary"
-              className="absolute -top-2 -right-3 data-[pro=false]:hidden"
-            >
-              PRO
-            </Badge>
-          </Card>
+      <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        {featureList.map(({ icon, title, description }) => (
+          <div key={title}>
+            <Card className="h-full bg-background border-0 shadow-none hover:shadow-lg transition-shadow">
+              <CardHeader className="flex justify-center items-center">
+                <div className="bg-primary/20 p-2 rounded-full ring-8 ring-primary/10 mb-4">
+                  <Icon
+                    name={icon as keyof typeof icons}
+                    size={24}
+                    color="hsl(var(--primary))"
+                    className="text-primary"
+                  />
+                </div>
+
+                <CardTitle className="text-center">{title}</CardTitle>
+              </CardHeader>
+
+              <CardContent className="text-muted-foreground text-center">
+                {description}
+              </CardContent>
+            </Card>
+          </div>
         ))}
       </div>
     </section>

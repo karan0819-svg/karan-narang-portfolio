@@ -1,24 +1,34 @@
-import { AboutMeSection } from "@/components/layout/sections/about-me";
-import { BenefitsSection } from "@/components/layout/sections/benefits";
-import { ContactSection } from "@/components/layout/sections/contact";
-import { FeaturesSection } from "@/components/layout/sections/features";
+import { SponsorsSection } from "@/components/layout/sections/sponsors";
+import { StatsSection } from "@/components/layout/sections/stats";
+import { ServicesSection } from "@/components/layout/sections/services";
 import { FooterSection } from "@/components/layout/sections/footer";
 import { HeroSection } from "@/components/layout/sections/hero";
 import { CaseStudySection } from "@/components/layout/sections/testimonial";
+import type { Metadata } from "next";
 
-export const metadata = {
-  title: "Karan Narang - Performance Marketing Portfolio",
+export const metadata: Metadata = {
+  title: "Karan Narang - Performance Marketing & Meta Ads Specialist",
   description:
-    "A bespoke portfolio to showcase the expertise, case studies, and services of a performance marketing specialist.",
+    "Trusted Meta Partner driving ₹175 Crore+ in revenue for D2C brands. Expert in Meta Ads, performance marketing, and ROAS-focused scaling strategies.",
+  keywords: [
+    "Performance Marketing",
+    "Meta Ads Specialist",
+    "D2C Marketing",
+    "E-commerce Growth",
+    "Facebook Ads",
+    "Instagram Ads",
+    "ROAS Optimization",
+    "Digital Marketing",
+  ],
   openGraph: {
     type: "website",
-    url: "https://YOUR_LIVE_DOMAIN.com", // Replace with your actual domain
-    title: "Karan Narang - Performance Marketing Portfolio",
+    url: "https://growwithkarannarang.in",
+    title: "Karan Narang - Performance Marketing & Meta Ads Specialist",
     description:
-      "Explore the case studies and data-driven strategies of Karan Narang, a performance marketing specialist.",
+      "Trusted Meta Partner driving ₹175 Crore+ in revenue for D2C brands. Expert in performance marketing and data-driven growth strategies.",
     images: [
       {
-        url: "https://res.cloudinary.com/dbzv9xfjp/image/upload/v1723499276/og-images/shadcn-vue.jpg", // Replace with your actual OG image
+        url: "https://res.cloudinary.com/dbzv9xfjp/image/upload/v1723499276/og-images/shadcn-vue.jpg",
         width: 1200,
         height: 630,
         alt: "Karan Narang - Performance Marketing Portfolio",
@@ -27,12 +37,11 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    site: "@YourTwitterHandle", // Replace with your Twitter handle
-    title: "Karan Narang - Performance Marketing Portfolio",
+    title: "Karan Narang - Performance Marketing & Meta Ads Specialist",
     description:
-      "Explore the case studies and data-driven strategies of Karan Narang, a performance marketing specialist.",
+      "Trusted Meta Partner driving ₹175 Crore+ in revenue for D2C brands through data-driven marketing strategies.",
     images: [
-      "https://res.cloudinary.com/dbzv9xfjp/image/upload/v1723499276/og-images/shadcn-vue.jpg", // Replace with your actual Twitter image
+      "https://res.cloudinary.com/dbzv9xfjp/image/upload/v1723499276/og-images/shadcn-vue.jpg",
     ],
   },
 };
@@ -41,11 +50,10 @@ export default function Home() {
   return (
     <>
       <HeroSection />
-      <BenefitsSection />
-      <FeaturesSection />
+      <SponsorsSection />
+      <StatsSection />
+      <ServicesSection />
       <CaseStudySection />
-      <AboutMeSection />
-      <ContactSection />
       <FooterSection />
     </>
   );
