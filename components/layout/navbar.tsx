@@ -83,7 +83,7 @@ export const Navbar = () => {
       </Link>
 
       {/* Mobile */}
-      <div className="flex items-center gap-2 lg:hidden">
+      {/* <div className="flex items-center gap-2 lg:hidden">
         <ToggleTheme />
         <Sheet open={isOpen} onOpenChange={setIsOpen}>
           <SheetTrigger asChild>
@@ -139,7 +139,7 @@ export const Navbar = () => {
             </SheetFooter>
           </SheetContent>
         </Sheet>
-      </div>
+      </div> */}
 
       {/* Desktop */}
       <NavigationMenu className="hidden lg:block mx-auto">
