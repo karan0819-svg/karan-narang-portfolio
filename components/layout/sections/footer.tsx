@@ -1,20 +1,28 @@
 import { Separator } from "@/components/ui/separator";
 import { Button } from "@/components/ui/button";
-import { ChevronsDownIcon, Mail, Phone, MessageCircle } from "lucide-react";
+import {
+  ChevronsDownIcon,
+  Mail,
+  Phone,
+  MessageCircle,
+  Linkedin,
+} from "lucide-react";
 import Link from "next/link";
+import LinkedInIcon from "@/components/icons/linkedin-icon";
 
 export const FooterSection = () => {
   return (
     <footer id="contact" className="container py-24 sm:py-32">
       <div className="p-10 bg-card border border-secondary rounded-2xl">
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-x-12 gap-y-8">
+        <div className="grid grid-cols-1 lg:grid-cols-2 md:grid-cols-4 gap-x-0 gap-y-8 lg:gap-x-10 md:gap-x-8">
           <div className="col-span-full md:col-span-2">
             <Link href="/" className="flex font-bold items-center mb-4">
               <ChevronsDownIcon className="w-9 h-9 mr-2 bg-gradient-to-tr from-primary via-primary/70 to-primary rounded-lg border border-secondary text-white" />
               <h3 className="text-2xl">Karan Narang</h3>
             </Link>
             <p className="text-muted-foreground mb-4">
-              Performance Marketing & Meta Ads Specialist helping D2C brands scale profitably.
+              Performance Marketing & Meta Ads Specialist helping D2C brands
+              scale profitably.
             </p>
             <Button asChild className="font-bold text-white">
               <Link href="/book-a-call">Book a Call</Link>
@@ -63,7 +71,8 @@ export const FooterSection = () => {
               <Mail className="size-4" />
               <Link
                 href="mailto:info@growwithkarannarang.in"
-                className="opacity-60 hover:opacity-100 transition-opacity text-sm"
+                title="info@growwithkarannarang.in"
+                className="block sm:max-w-[120px] md:max-w-[250px] truncate opacity-60 hover:opacity-100 transition-opacity text-sm"
               >
                 info@growwithkarannarang.in
               </Link>
@@ -87,11 +96,12 @@ export const FooterSection = () => {
                 WhatsApp
               </Link>
             </div>
-            <div className="mt-2">
+            <div className="flex items-center gap-2">
+              <Linkedin className="size-4" />
               <Link
                 href="https://www.linkedin.com/in/karan-narang-744496225/"
                 target="_blank"
-                className="opacity-60 hover:opacity-100 transition-opacity"
+                className="opacity-60 hover:opacity-100 transition-opacity text-sm"
               >
                 LinkedIn
               </Link>

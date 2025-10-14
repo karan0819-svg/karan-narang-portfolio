@@ -111,6 +111,27 @@ export const caseStudyList: CaseStudy[] = [
     ],
     image: "/case-studies/firstcry-school.jpg",
   },
+  {
+    slug: "firstcasry-school-lead-generation",
+    brandType: "Lead Generation",
+    industry: "Education",
+    title: "High-Quality Leads for FirstCry School Launch",
+    overview:
+      "When FirstCry, India's most trusted baby product brand, entered the preschool education space, they launched their Vizag center in 2022. We were tasked with generating high-quality leads for admissions. We launched 5 lead generation campaigns with hyperlocal targeting and creatives tailored for parents. Active for only 2 months each year before the admission cycle, these campaigns generated 653 high-intent Meta leads. CRM data confirmed a 5% lead-to-admission conversion rate, validating our strategy for time-sensitive, local lead generation.",
+    challenge:
+      "Generate high-quality, geographically targeted leads for a premium preschool in a competitive market, with a limited campaign window aligned with the admission cycle.",
+    strategy:
+      "Implemented hyperlocal targeting within a 5km radius of the Vizag center, created parent-focused ad creatives highlighting safety, curriculum, and FirstCry's brand trust. Used lead forms with qualifying questions to ensure lead quality. Campaigns ran intensively for 2 months before admission deadlines.",
+    results:
+      "Generated 653 high-quality Meta leads with a 5% lead-to-admission conversion rate (33 admissions), reaching over 5.16 lakh people. Achieved a cost per lead as low as ₹95.89, making it highly cost-effective for premium education lead generation.",
+    metrics: [
+      { value: "653", label: "Meta Leads Generated" },
+      { value: "5%", label: "Lead to Admission Rate" },
+      { value: "₹95.89", label: "Lowest Cost Per Lead" },
+      { value: "5.16 Lakh+", label: "People Reached" },
+    ],
+    image: "_next/image?url=%2F1.png&w=1200&q=75",
+  },
 ];
 
 // Helper function to get case study by slug

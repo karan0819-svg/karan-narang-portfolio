@@ -11,48 +11,54 @@ export const HeroSection = () => {
   const { theme } = useTheme();
   return (
     <section className="container w-full">
-      <div className="grid place-items-center lg:max-w-screen-xl gap-8 mx-auto py-20 md:py-32">
-        <div className="text-center space-y-8">
+      <div className="grid place-items-center lg:max-w-screen-xl gap-8 mx-auto py-20 md:py-32 max-w-full">
+        <div className="flex lg:justify-self-start ">
           <Badge
             variant="outline"
-            className="text-sm py-2 uppercase font-semibold tracking-wider"
+            className="text-sm mb-2 py-3 px-4 uppercase font-semibold tracking-wider rounded-md"
           >
             Clicks to Conversions
           </Badge>
-
-          <div className="max-w-screen-lg mx-auto text-center">
-            <h1 className="text-5xl md:text-6xl lg:text-7xl font-extrabold leading-tight mb-6">
-              Scaling D2C Ecommerce Brands to{" "}
+        </div>
+        <div className="flex flex-col lg:!flex-row items-center lg:items-start justify-between text-center lg:text-left gap-8">
+          <div className=" sm:max-w-[560px]">
+            <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-[80px] font-extrabold leading-tight max-w-[585px]">
+              Scaling D2C Ecommerce Brands to{" \n"}
+              <br />
               <span className="text-transparent bg-gradient-to-r from-[#D247BF] to-primary bg-clip-text">
                 New Heights
               </span>
             </h1>
           </div>
 
-          <p className="max-w-screen-md mx-auto text-xl text-muted-foreground leading-relaxed">
-            We're a premium e-commerce agency and{" "}
-            <strong className="text-foreground">Trusted Meta Partner</strong>,
-            driving over{" "}
-            <strong className="text-foreground">₹175 Crore+</strong> in revenue
-            for brands. Data-driven strategies that turn ad spend into
-            measurable growth.
-          </p>
+          <div className="lg:w-[35%] md:w-[50%] flex flex-col gap-4 ">
+            <p className="text-xl text-muted-foreground leading-relaxed">
+              We're a premium e-commerce agency and{" "}
+              <strong className="text-foreground">Trusted Meta Partner</strong>,
+              driving over{" "}
+              <strong className="text-foreground">₹175 Crore+</strong> in
+              revenue for brands. Data-driven strategies that turn ad spend into
+              measurable growth.
+            </p>
+            <div className="flex gap-4 self-center lg:self-start">
+              <Button
+                asChild
+                className="font-bold group/arrow text-white text-sm md:text-base lg:text-lg px-4 py-2 md:px-6 md:py-3"
+              >
+                <Link href="/book-a-call">
+                  Book a Call
+                  <ArrowRight className="size-5 ml-2 group-hover/arrow:translate-x-1 transition-transform" />
+                </Link>
+              </Button>
 
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <Button
-              asChild
-              size="lg"
-              className="font-bold group/arrow text-white"
-            >
-              <Link href="/book-a-call">
-                Book a Call
-                <ArrowRight className="size-5 ml-2 group-hover/arrow:translate-x-1 transition-transform" />
-              </Link>
-            </Button>
-
-            <Button asChild variant="outline" size="lg" className="font-bold">
-              <Link href="/case-studies">View Case Studies</Link>
-            </Button>
+              <Button
+                asChild
+                variant="outline"
+                className="font-bold text-sm md:text-base lg:text-lg px-4 py-2 md:px-6 md:py-3"
+              >
+                <Link href="/case-studies">Case Studies</Link>
+              </Button>
+            </div>
           </div>
         </div>
 
