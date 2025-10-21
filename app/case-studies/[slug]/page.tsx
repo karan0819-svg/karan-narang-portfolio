@@ -79,18 +79,18 @@ export default function CaseStudyPage({ params }: CaseStudyPageProps) {
     .slice(0, 2);
 
   return (
-    <div className="container py-24 sm:py-32">
+    <div className="container py-16 md:py-24">
       {/* Back Button */}
       <Link
         href="/case-studies"
-        className="inline-flex items-center text-muted-foreground hover:text-primary transition-colors mb-8 group"
+        className="inline-flex items-center text-muted-foreground hover:text-primary transition-colors mb-6 group"
       >
         <ArrowLeft className="mr-2 size-4 group-hover:-translate-x-1 transition-transform" />
         Back to All Case Studies
       </Link>
 
       {/* Hero Section */}
-      <section className="mb-16">
+      <section className="mb-12">
         <div className="flex items-center gap-3 mb-4">
           <Badge
             variant="secondary"
@@ -112,7 +112,7 @@ export default function CaseStudyPage({ params }: CaseStudyPageProps) {
 
       {/* Key Metrics Section */}
       {caseStudy.metrics && (
-        <section className="mb-16">
+        <section className="mb-12">
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {caseStudy.metrics.map((metric) => (
               <Card key={metric.label} className="text-center p-6">
@@ -131,7 +131,7 @@ export default function CaseStudyPage({ params }: CaseStudyPageProps) {
       )}
 
       {/* Challenge, Strategy, Results Sections */}
-      <div className="grid lg:grid-cols-3 gap-8 mb-16">
+      <div className="grid lg:grid-cols-3 gap-6 mb-12">
         {caseStudy.challenge && (
           <Card>
             <CardHeader>
@@ -174,7 +174,7 @@ export default function CaseStudyPage({ params }: CaseStudyPageProps) {
 
       {/* Table Data Section */}
       {caseStudy.tableData && (
-        <section className="mb-16">
+        <section className="mb-12">
           <Card>
             <CardHeader>
               <CardTitle className="text-2xl">Performance Breakdown</CardTitle>
@@ -223,7 +223,7 @@ export default function CaseStudyPage({ params }: CaseStudyPageProps) {
       )}
 
       {/* CTA Section */}
-      <section className="bg-card border border-secondary rounded-2xl p-12 text-center mb-16">
+      <section className="bg-card border border-secondary rounded-2xl p-8 text-center mb-12">
         <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
           Want Similar Results for Your Brand?
         </h2>

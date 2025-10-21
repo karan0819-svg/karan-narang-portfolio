@@ -31,9 +31,9 @@ export const metadata: Metadata = {
 
 export default function BookACallPage() {
   return (
-    <div className="container py-24 sm:py-32">
+    <div className="container py-16 md:py-24">
       {/* Hero Section */}
-      <section className="text-center mb-16 max-w-4xl mx-auto">
+      <section className="text-center mb-12 max-w-4xl mx-auto">
         <Badge variant="outline" className="mb-4">
           Free Consultation
         </Badge>
@@ -47,7 +47,7 @@ export default function BookACallPage() {
       </section>
 
       {/* Main Content Grid */}
-      <div className="grid lg:grid-cols-2 gap-12 max-w-6xl mx-auto mb-16">
+      <div className="grid lg:grid-cols-2 gap-8 max-w-7xl mx-auto mb-12">
         {/* Left Column - Calendar Embed Placeholder */}
         <div>
           <Card className="h-full">
@@ -165,7 +165,7 @@ export default function BookACallPage() {
       </div>
 
       {/* What to Expect Section */}
-      <section className="max-w-4xl mx-auto mb-16">
+      <section className="max-w-4xl mx-auto mb-12">
         <Card>
           <CardHeader>
             <CardTitle className="text-2xl">

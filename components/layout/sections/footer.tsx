@@ -12,9 +12,9 @@ import LinkedInIcon from "@/components/icons/linkedin-icon";
 
 export const FooterSection = () => {
   return (
-    <footer id="contact" className="container py-24 sm:py-32">
-      <div className="p-10 bg-card border border-secondary rounded-2xl">
-        <div className="grid grid-cols-1 lg:grid-cols-2 md:grid-cols-4 gap-x-0 gap-y-8 lg:gap-x-10 md:gap-x-8">
+    <footer id="contact" className="container py-16 md:py-24">
+      <div className="p-8 bg-card border border-secondary rounded-2xl">
+        <div className="grid grid-cols-1 lg:grid-cols-2 md:grid-cols-4 gap-x-8 gap-y-6 lg:gap-x-10">
           <div className="col-span-full md:col-span-2">
             <Link href="/" className="flex font-bold items-center mb-4">
               <ChevronsDownIcon className="w-9 h-9 mr-2 bg-gradient-to-tr from-primary via-primary/70 to-primary rounded-lg border border-secondary text-white" />

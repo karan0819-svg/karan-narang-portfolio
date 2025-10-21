@@ -28,9 +28,9 @@ const StatCard = ({ value, label }: { value: string; label: string }) => (
 
 export default function AboutPage() {
   return (
-    <div className="container py-24 sm:py-32">
+    <div className="container py-16 md:py-24">
       {/* Hero Section */}
-      <section className="text-center mb-16">
+      <section className="text-center mb-12">
         <h1 className="text-5xl md:text-6xl font-extrabold text-foreground mb-4">
           Meet Your Growth Partner
         </h1>
@@ -41,7 +41,7 @@ export default function AboutPage() {
       </section>
 
       {/* Main Content */}
-      <section className="grid lg:grid-cols-5 gap-12 items-center mb-24">
+      <section className="grid lg:grid-cols-5 gap-8 items-center mb-16">
         {/* Image Column */}
         <div className="lg:col-span-2">
           <Image
@@ -87,7 +87,7 @@ export default function AboutPage() {
           </div>
 
           {/* Key Statistics */}
-          <div className="mt-8 pt-8 border-t border-border grid grid-cols-1 sm:grid-cols-3 gap-8">
+          <div className="mt-8 pt-8 border-t border-border grid grid-cols-1 sm:grid-cols-3 gap-6">
             <StatCard value="15 Cr+" label="Revenue Generated" />
             <StatCard value="9 Cr+" label="Ad Spend Managed" />
             <StatCard value="28+" label="D2C Brands Scaled" />
@@ -96,7 +96,7 @@ export default function AboutPage() {
       </section>
 
       {/* Philosophy Section */}
-      <section className="max-w-4xl mx-auto mb-24">
+      <section className="max-w-4xl mx-auto mb-16">
         <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6 text-center">
           My Approach to Performance Marketing
         </h2>
@@ -123,7 +123,7 @@ export default function AboutPage() {
       </section>
 
       {/* Why Work Together */}
-      <section className="max-w-3xl mx-auto text-center mb-16">
+      <section className="max-w-3xl mx-auto text-center mb-12">
         <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
           Why Work Together?
         </h2>
@@ -141,7 +141,7 @@ export default function AboutPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="text-center bg-card border border-secondary rounded-2xl p-12">
+      <section className="text-center bg-card border border-secondary rounded-2xl p-8">
         <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
           Let's Grow Your Brand Together
         </h2>

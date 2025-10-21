@@ -27,9 +27,9 @@ export const metadata: Metadata = {
 
 export default function CaseStudiesPage() {
   return (
-    <div className="container py-24 sm:py-32">
+    <div className="container py-16 md:py-24">
       {/* Hero Section */}
-      <section className="text-center mb-16">
+      <section className="text-center mb-12">
         <Badge variant="outline" className="mb-4">
           Success Stories
         </Badge>
@@ -43,7 +43,7 @@ export default function CaseStudiesPage() {
       </section>
 
       {/* Case Studies Grid */}
-      <section className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+      <section className="grid md:grid-cols-2 gap-6 max-w-7xl mx-auto">
         {caseStudyList.map((study) => (
           <Card
             key={study.slug}
@@ -116,7 +116,7 @@ export default function CaseStudiesPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="mt-24 text-center bg-card border border-secondary rounded-2xl p-12 max-w-4xl mx-auto">
+      <section className="mt-16 text-center bg-card border border-secondary rounded-2xl p-8 max-w-4xl mx-auto">
         <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
           Want Results Like These?
         </h2>

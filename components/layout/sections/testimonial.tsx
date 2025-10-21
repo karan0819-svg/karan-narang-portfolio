@@ -31,8 +31,8 @@ export const CaseStudySection = () => {
   const featuredCases = getFeaturedCaseStudies();
 
   return (
-    <section id="case-studies" className="container py-24 sm:py-32">
-      <div className="text-center mb-12">
+    <section id="case-studies" className="container py-16 md:py-24">
+      <div className="text-center mb-8">
         <h2 className="text-sm text-primary uppercase tracking-widest font-semibold mb-2">
           Case Studies
         </h2>
@@ -46,7 +46,7 @@ export const CaseStudySection = () => {
       </div>
 
       {/* 3-Column Grid Layout */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p-4 lg:max-w-screen-xl mx-auto">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-7xl mx-auto">
         {/* --- COLUMN 1 --- */}
         <div className="flex flex-col gap-6">
           {/* Card 1 */}
@@ -133,7 +133,7 @@ export const CaseStudySection = () => {
       </div>
 
       {/* View All CTA */}
-      <div className="text-center mt-12">
+      <div className="text-center mt-8">
         <Button
           asChild
           variant="outline"

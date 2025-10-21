@@ -11,7 +11,7 @@ export const HeroSection = () => {
   const { theme } = useTheme();
   return (
     <section className="container w-full">
-      <div className="grid place-items-center lg:max-w-screen-xl gap-8 mx-auto py-20 md:py-32 max-w-full">
+      <div className="grid place-items-center lg:max-w-screen-xl gap-6 mx-auto py-16 md:py-24 max-w-full">
         <div className="flex lg:justify-self-start ">
           <Badge
             variant="outline"
@@ -20,7 +20,7 @@ export const HeroSection = () => {
             Clicks to Conversions
           </Badge>
         </div>
-        <div className="flex flex-col lg:!flex-row items-center lg:items-start justify-between text-center lg:text-left gap-8">
+        <div className="flex flex-col lg:!flex-row items-center lg:items-start justify-between text-center lg:text-left gap-6">
           <div className=" sm:max-w-[560px]">
             <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-[80px] font-extrabold leading-tight max-w-[585px]">
               Scaling D2C Ecommerce Brands to{" \n"}
@@ -75,8 +75,8 @@ export const HeroSection = () => {
           <div className="absolute bottom-0 left-0 w-full h-20 md:h-28 bg-gradient-to-b from-background/0 via-background/50 to-background rounded-lg"></div>
         </div> */}
 
-        <div className="mt-8 lg:mt-12">
-          <div className="grid grid-cols-1 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
+        <div className="mt-8">
+          <div className="grid grid-cols-1 lg:grid-cols-4 gap-6 max-w-7xl mx-auto">
             {/* Column 1: Join Club Card */}
             <div className="bg-[#1C1C1C] rounded-3xl col-span-2 text-white order-2 lg:order-1 self-end">
               <div className="bg-black p-6 rounded-2xl shadow-lg">

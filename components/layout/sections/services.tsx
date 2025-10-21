@@ -63,7 +63,7 @@ const featureList: FeaturesProps[] = [
 
 export const ServicesSection = () => {
   return (
-    <section id="services" className="container py-24 sm:py-32">
+    <section id="services" className="container py-16 md:py-24">
       <h2 className="text-lg text-primary text-center mb-2 tracking-wider uppercase font-semibold">
         Our Services
       </h2>
@@ -72,12 +72,12 @@ export const ServicesSection = () => {
         Your Strategic Growth Partner
       </h2>
 
-      <h3 className="md:w-1/2 mx-auto text-xl text-center text-muted-foreground mb-12">
+      <h3 className="md:w-1/2 mx-auto text-xl text-center text-muted-foreground mb-8">
         We combine data-driven strategies with creative excellence to turn ad
         spend into measurable revenue and sustainable growth for your brand.
       </h3>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-7xl mx-auto">
         {featureList.map(({ icon, title, image }) => (
           <Card
             key={title}
