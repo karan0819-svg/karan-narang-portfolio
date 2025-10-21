@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is a Next.js 14 performance marketing portfolio website for Karan Narang built with TypeScript, React, and shadcn/ui components. The project uses the App Router architecture with dynamic routing for case studies and includes dark mode support via next-themes.
+This is a Next.js 14 performance marketing portfolio website for Vraj Choksi built with TypeScript, React, and shadcn/ui components. The project uses the App Router architecture with dynamic routing for case studies and includes dark mode support via next-themes.
 
 ## Development Commands
 

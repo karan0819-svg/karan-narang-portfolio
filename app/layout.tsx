@@ -8,8 +8,8 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: {
-    default: "Karan Narang - Performance Marketing & Meta Ads Specialist",
-    template: "%s | Karan Narang",
+    default: "Vraj Choksi - Performance Marketing & Meta Ads Specialist",
+    template: "%s | Vraj Choksi",
   },
   description:
     "Trusted Meta Partner driving ₹175 Crore+ in revenue for D2C brands. Expert in Meta Ads, performance marketing, and ROAS-focused scaling strategies.",

@@ -20,7 +20,7 @@ export const AboutMeSection = () => {
         <div className="lg:col-span-2">
           <Image
             src="https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-            alt="Karan Narang, Meta Ads Specialist"
+            alt="Vraj Choksi, Meta Ads Specialist"
             width={500}
             height={600}
             className="rounded-lg shadow-lg object-cover w-full h-auto aspect-[4/5] grayscale transition-all duration-300 hover:grayscale-0"
@@ -33,7 +33,7 @@ export const AboutMeSection = () => {
             About Me
           </h2>
           <h3 className="text-4xl md:text-5xl font-extrabold text-foreground">
-            Karan Narang
+            Vraj Choksi
           </h3>
           <p className="text-xl font-medium text-muted-foreground mt-2">
             Performance Marketing & Meta Ads Specialist

@@ -21,7 +21,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Book a Call - Let's Grow Your Brand Together",
   description:
-    "Schedule a free 30-minute strategy consultation with Karan Narang, a performance marketing specialist. Discuss your growth goals and discover how to scale your D2C brand profitably.",
+    "Schedule a free 30-minute strategy consultation with Vraj Choksi, a performance marketing specialist. Discuss your growth goals and discover how to scale your D2C brand profitably.",
   openGraph: {
     title: "Book a Call - Let's Grow Your Brand Together",
     description:

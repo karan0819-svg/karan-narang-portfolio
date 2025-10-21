@@ -19,6 +19,7 @@ import {
 import { Button } from "../ui/button";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { cn } from "@/lib/utils";
 
 interface RouteProps {
   href: string;
@@ -27,16 +28,20 @@ interface RouteProps {
 
 const routeList: RouteProps[] = [
   {
-    href: "/about",
-    label: "About",
+    href: "/#home",
+    label: "Home",
+  },
+  {
+    href: "/#services",
+    label: "Services",
   },
   {
     href: "/case-studies",
     label: "Case Studies",
   },
   {
-    href: "/#services",
-    label: "Services",
+    href: "/about",
+    label: "About",
   },
   {
     href: "/#contact",
@@ -78,12 +83,30 @@ export const Navbar = () => {
     <header className="shadow-smooth backdrop-blur-sm bg-card/95 w-[90%] md:w-[70%] lg:w-[75%] lg:max-w-screen-xl top-5 mx-auto sticky z-40 rounded-2xl flex justify-between items-center p-3">
       <Link href="/" className="font-bold text-lg flex items-center">
         <ChevronsDown className="bg-gradient-to-tr from-primary via-secondary to-accent rounded-lg w-9 h-9 mr-2 text-white" />
-        <span className="hidden sm:inline">Karan Narang</span>
+        <span className=" inline">Vraj Choksi</span>
       </Link>
 
+      {/* Desktop */}
+      <NavigationMenu className="hidden lg:block mx-auto">
+        <NavigationMenuList>
+          <NavigationMenuItem>
+            {routeList.map(({ href, label }) => (
+              <NavigationMenuLink key={href} asChild>
+                <Link
+                  href={href}
+                  className="text-base px-3 py-2 hover:text-primary transition-colors font-medium"
+                  onClick={(e) => handleDesktopNavClick(e, href)}
+                >
+                  {label}
+                </Link>
+              </NavigationMenuLink>
+            ))}
+          </NavigationMenuItem>
+        </NavigationMenuList>
+      </NavigationMenu>
+
       {/* Mobile */}
-      {/* <div className="flex items-center gap-2 lg:hidden">
-        <ToggleTheme />
+      <div className="lg:hidden !lg:flex items-center gap-2">
         <Sheet open={isOpen} onOpenChange={setIsOpen}>
           <SheetTrigger asChild>
             <Button variant="ghost" size="icon">
@@ -104,7 +127,7 @@ export const Navbar = () => {
                     onClick={() => setIsOpen(false)}
                   >
                     <ChevronsDown className="bg-gradient-to-tr from-primary via-secondary to-accent rounded-lg w-9 h-9 mr-2 text-white" />
-                    Karan Narang
+                    Vraj Choksi
                   </Link>
                 </SheetTitle>
               </SheetHeader>
@@ -138,26 +161,7 @@ export const Navbar = () => {
             </SheetFooter>
           </SheetContent>
         </Sheet>
-      </div> */}
-
-      {/* Desktop */}
-      <NavigationMenu className="hidden lg:block mx-auto">
-        <NavigationMenuList>
-          <NavigationMenuItem>
-            {routeList.map(({ href, label }) => (
-              <NavigationMenuLink key={href} asChild>
-                <Link
-                  href={href}
-                  className="text-base px-3 py-2 hover:text-primary transition-colors font-medium"
-                  onClick={(e) => handleDesktopNavClick(e, href)}
-                >
-                  {label}
-                </Link>
-              </NavigationMenuLink>
-            ))}
-          </NavigationMenuItem>
-        </NavigationMenuList>
-      </NavigationMenu>
+      </div>
 
       <div className="hidden lg:flex items-center gap-3">
         <Button asChild size="default" className="font-bold text-white">

@@ -21,7 +21,7 @@ export const FooterSection = () => {
           <div className="col-span-full md:col-span-2">
             <Link href="/" className="flex font-bold items-center mb-4">
               <ChevronsDownIcon className="w-9 h-9 mr-2 bg-gradient-to-tr from-primary via-secondary to-accent rounded-lg text-white" />
-              <h3 className="text-2xl">Karan Narang</h3>
+              <h3 className="text-2xl">Vraj Choksi</h3>
             </Link>
             <p className="text-muted-foreground mb-4">
               Performance Marketing & Meta Ads Specialist helping D2C brands
@@ -121,7 +121,7 @@ export const FooterSection = () => {
               href="https://www.linkedin.com/in/karan-narang-744496225/"
               className="text-primary hover:underline"
             >
-              Karan Narang
+              Vraj Choksi
             </Link>
           </p>
           <p className="text-sm text-muted-foreground">
