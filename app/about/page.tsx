@@ -141,7 +141,7 @@ export default function AboutPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="text-center bg-card border border-secondary rounded-2xl p-8">
+      <section className="text-center bg-gradient-to-br from-primary/8 via-secondary/8 to-accent/8 shadow-smooth-lg rounded-2xl p-8">
         <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
           Let's Grow Your Brand Together
         </h2>

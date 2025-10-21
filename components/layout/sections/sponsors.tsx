@@ -61,7 +61,7 @@ const sponsors: sponsorsProps[] = [
 
 export const SponsorsSection = () => {
   return (
-    <section id="sponsors" className="container py-16 md:py-24">
+    <section id="sponsors" className="container py-16 md:py-24 bg-gradient-to-b from-primary/5 to-transparent">
       <h2 className="text-lg md:text-xl text-center mb-8 text-muted-foreground font-medium">
         Trusted by Leading D2C Brands
       </h2>

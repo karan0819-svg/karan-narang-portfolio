@@ -33,7 +33,7 @@ const stats: StatProps[] = [
 
 export const StatsSection = () => {
   return (
-    <section className="container py-16 md:py-24">
+    <section className="container py-16 md:py-24 bg-gradient-to-br from-primary/10 via-secondary/10 to-accent/10">
       <div className="text-center mb-8">
         <h2 className="text-4xl md:text-5xl font-extrabold text-foreground mb-4">
           We're Your Outsourced CMO
@@ -47,7 +47,7 @@ export const StatsSection = () => {
         {stats.map((stat, index) => (
           <Card
             key={index}
-            className="p-6 text-center bg-card hover:bg-accent/5 transition-colors border-2 hover:border-primary/50"
+            className="p-6 text-center bg-card shadow-smooth hover:shadow-smooth-lg hover:shadow-glow-primary border-0 transition-all duration-300 hover:scale-[1.02]"
           >
             <div className="flex justify-center mb-4 text-primary">
               {stat.icon}

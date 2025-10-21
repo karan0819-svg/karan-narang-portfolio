@@ -94,7 +94,7 @@ export default function BookACallPage() {
           </div>
 
           {/* WhatsApp */}
-          <Card className="hover:border-primary/50 transition-colors">
+          <Card className="shadow-smooth hover:shadow-smooth-lg hover:bg-primary/5 border-0 transition-all duration-300">
             <CardHeader>
               <CardTitle className="text-lg flex items-center gap-3">
                 <div className="p-2 bg-primary/10 rounded-lg">
@@ -117,7 +117,7 @@ export default function BookACallPage() {
           </Card>
 
           {/* Email */}
-          <Card className="hover:border-primary/50 transition-colors">
+          <Card className="shadow-smooth hover:shadow-smooth-lg hover:bg-primary/5 border-0 transition-all duration-300">
             <CardHeader>
               <CardTitle className="text-lg flex items-center gap-3">
                 <div className="p-2 bg-primary/10 rounded-lg">
@@ -140,7 +140,7 @@ export default function BookACallPage() {
           </Card>
 
           {/* Phone */}
-          <Card className="hover:border-primary/50 transition-colors">
+          <Card className="shadow-smooth hover:shadow-smooth-lg hover:bg-primary/5 border-0 transition-all duration-300">
             <CardHeader>
               <CardTitle className="text-lg flex items-center gap-3">
                 <div className="p-2 bg-primary/10 rounded-lg">

@@ -14,7 +14,7 @@ const CaseStudyCard = ({ caseStudy }: { caseStudy: CaseStudy }) => {
   const { theme } = useTheme();
 
   return (
-    <Card className="flex flex-col h-full overflow-hidden transition-all duration-300 hover:shadow-xl hover:border-primary/50">
+    <Card className="flex flex-col h-full overflow-hidden shadow-smooth hover:shadow-smooth-xl border-0 transition-all duration-300 hover:scale-[1.02]">
       <CardHeader>
         <CardTitle>{caseStudy.title}</CardTitle>
       </CardHeader>
@@ -31,7 +31,7 @@ export const CaseStudySection = () => {
   const featuredCases = getFeaturedCaseStudies();
 
   return (
-    <section id="case-studies" className="container py-16 md:py-24">
+    <section id="case-studies" className="container py-16 md:py-24 bg-secondary/5">
       <div className="text-center mb-8">
         <h2 className="text-sm text-primary uppercase tracking-widest font-semibold mb-2">
           Case Studies
@@ -110,7 +110,7 @@ export const CaseStudySection = () => {
             href={`/case-studies/${featuredCases[3].slug}`}
             className="md:col-span-2 lg:col-span-1 h-full min-h-[300px] lg:min-h-0"
           >
-            <Card className="h-full overflow-hidden transition-all duration-300 hover:shadow-xl hover:border-primary/50 relative group">
+            <Card className="h-full overflow-hidden shadow-smooth hover:shadow-smooth-xl border-0 transition-all duration-300 relative group">
               <Image
                 src={"/1.png"}
                 alt={featuredCases[3].title}

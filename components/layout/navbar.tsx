@@ -18,7 +18,6 @@ import {
 } from "../ui/navigation-menu";
 import { Button } from "../ui/button";
 import Link from "next/link";
-import { ToggleTheme } from "./toogle-theme";
 import { usePathname } from "next/navigation";
 
 interface RouteProps {
@@ -76,9 +75,9 @@ export const Navbar = () => {
   };
 
   return (
-    <header className="shadow-inner bg-opacity-15 w-[90%] md:w-[70%] lg:w-[75%] lg:max-w-screen-xl top-5 mx-auto sticky border border-secondary z-40 rounded-2xl flex justify-between items-center p-3 bg-card">
+    <header className="shadow-smooth backdrop-blur-sm bg-card/95 w-[90%] md:w-[70%] lg:w-[75%] lg:max-w-screen-xl top-5 mx-auto sticky z-40 rounded-2xl flex justify-between items-center p-3">
       <Link href="/" className="font-bold text-lg flex items-center">
-        <ChevronsDown className="bg-gradient-to-tr border-secondary from-primary via-primary/70 to-primary rounded-lg w-9 h-9 mr-2 border text-white" />
+        <ChevronsDown className="bg-gradient-to-tr from-primary via-secondary to-accent rounded-lg w-9 h-9 mr-2 text-white" />
         <span className="hidden sm:inline">Karan Narang</span>
       </Link>
 
@@ -104,7 +103,7 @@ export const Navbar = () => {
                     className="flex items-center"
                     onClick={() => setIsOpen(false)}
                   >
-                    <ChevronsDown className="bg-gradient-to-tr border-secondary from-primary via-primary/70 to-primary rounded-lg w-9 h-9 mr-2 border text-white" />
+                    <ChevronsDown className="bg-gradient-to-tr from-primary via-secondary to-accent rounded-lg w-9 h-9 mr-2 text-white" />
                     Karan Narang
                   </Link>
                 </SheetTitle>
@@ -161,7 +160,6 @@ export const Navbar = () => {
       </NavigationMenu>
 
       <div className="hidden lg:flex items-center gap-3">
-        <ToggleTheme />
         <Button asChild size="default" className="font-bold text-white">
           <Link href="/book-a-call">Book a Call</Link>
         </Button>

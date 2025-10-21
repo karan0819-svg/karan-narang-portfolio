@@ -25,7 +25,7 @@ export const HeroSection = () => {
             <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-[80px] font-extrabold leading-tight max-w-[585px]">
               Scaling D2C Ecommerce Brands to{" \n"}
               <br />
-              <span className="text-transparent bg-gradient-to-r from-[#D247BF] to-primary bg-clip-text">
+              <span className="text-transparent bg-gradient-to-r from-[#1E40AF] via-[#3B82F6] to-[#06B6D4] bg-clip-text">
                 New Heights
               </span>
             </h1>

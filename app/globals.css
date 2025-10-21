@@ -6,82 +6,72 @@ html {
   scroll-behavior: smooth;
 }
 
-/* *=========== Subtle Blue & Mint Theme =========== */
-/* Based on your provided colors:
-  -- Blue: #106EBE -> hsl(211, 82%, 40%)
-  -- Mint: #0FFCBE -> hsl(165, 99%, 52%)
-  -- Light Gray: #F0F0F0 -> hsl(0, 0%, 94%)
-  -- White: #FFFFFF -> hsl(0, 0%, 100%)
+/* *=========== Professional Blue Theme - Borderless Edition =========== */
+/* Corporate, Trustworthy, Data-Driven Design
+  -- Primary (Deep Blue): #1E40AF -> hsl(224, 76%, 40%)
+  -- Secondary (Bright Blue): #3B82F6 -> hsl(217, 91%, 60%)
+  -- Accent (Cyan/Teal): #06B6D4 -> hsl(189, 95%, 42%)
+  -- Success (Emerald): #10B981 -> hsl(160, 84%, 39%)
+  -- Background (Cool White): hsl(210, 20%, 98%)
+  -- Foreground (Blue-Gray): hsl(215, 25%, 15%)
 */
 @layer base {
   :root {
-    --background: 0 0% 100%; /* White */
-    --foreground: 211 25% 15%; /* Dark, desaturated blue for text */
+    --background: 210 20% 98%; /* Cool white with blue tint */
+    --foreground: 215 25% 15%; /* Deep blue-gray for text */
 
-    --card: 0 0% 100%; /* White */
-    --card-foreground: 211 25% 15%;
+    --card: 0 0% 100%; /* Pure white for cards */
+    --card-foreground: 215 25% 15%;
 
-    --popover: 0 0% 100%; /* White */
-    --popover-foreground: 211 25% 15%;
+    --popover: 0 0% 100%; /* Pure white */
+    --popover-foreground: 215 25% 15%;
 
-    --primary: 211 82% 40%; /* Blue */
-    --primary-foreground: 0 0% 98%; /* Light text on blue */
+    --primary: 224 76% 40%; /* Deep Professional Blue */
+    --primary-foreground: 0 0% 100%; /* White text on blue */
 
-    --secondary: 0 0% 94%; /* Light Gray */
-    --secondary-foreground: 211 25% 15%;
+    --secondary: 217 91% 60%; /* Bright Blue */
+    --secondary-foreground: 0 0% 100%; /* White text on blue */
 
-    --muted: 0 0% 94%; /* Light Gray */
-    --muted-foreground: 211 15% 45%; /* A lighter, muted version of the foreground text */
+    --muted: 210 20% 96%; /* Very light blue-gray */
+    --muted-foreground: 215 16% 47%; /* Medium blue-gray */
 
-    --accent: 165 99% 52%; /* Mint */
-    --accent-foreground: 211 25% 15%; /* Dark text on mint */
+    --accent: 189 95% 42%; /* Cyan/Teal */
+    --accent-foreground: 0 0% 100%; /* White text on cyan */
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 0 0% 98%;
+    --destructive-foreground: 0 0% 100%;
 
-    --border: 0 0% 88%; /* Slightly darker gray for borders */
-    --input: 0 0% 88%;
-    --ring: 211 82% 40%; /* Blue */
-    --radius: 0.5rem;
-  }
-
-  .dark {
-    --background: 211 25% 10%; /* Very dark blue */
-    --foreground: 0 0% 94%; /* Light Gray for text */
-
-    --card: 211 25% 15%; /* Slightly lighter dark blue */
-    --card-foreground: 0 0% 94%;
-
-    --popover: 211 25% 10%;
-    --popover-foreground: 0 0% 94%;
-
-    --primary: 211 82% 50%; /* A slightly lighter blue for better contrast */
-    --primary-foreground: 211 25% 10%; /* Dark text on primary */
-
-    --secondary: 211 25% 15%;
-    --secondary-foreground: 0 0% 94%;
-
-    --muted: 211 25% 15%;
-    --muted-foreground: 0 0% 60%; /* A medium gray for less important text */
-
-    --accent: 165 99% 52%; /* Mint */
-    --accent-foreground: 211 25% 10%;
-
-    --destructive: 0 72.2% 50.6%;
-    --destructive-foreground: 0 0% 98%;
-
-    --border: 211 25% 25%; /* Lighter border for contrast */
-    --input: 211 25% 25%;
-    --ring: 165 99% 52%; /* Mint for a high-contrast ring */
+    --border: 210 20% 92%; /* Subtle blue-gray border (rarely used) */
+    --input: 210 20% 92%;
+    --ring: 224 76% 40%; /* Deep Blue focus ring */
+    --radius: 0.75rem; /* Slightly more rounded for modern feel */
   }
 }
 
-.shadow-light {
-  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.085);
+/* Smooth Shadow System - Replaces borders for depth */
+.shadow-smooth-sm {
+  box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
 }
 
-.shadow-dark {
-  box-shadow: inset 0 0 5px rgba(255, 255, 255, 0.141);
+.shadow-smooth {
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.08), 0 2px 4px -2px rgb(0 0 0 / 0.05);
+}
+
+.shadow-smooth-lg {
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.08), 0 4px 6px -4px rgb(0 0 0 / 0.05);
+}
+
+.shadow-smooth-xl {
+  box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.10), 0 8px 10px -6px rgb(0 0 0 / 0.05);
+}
+
+/* Glow effects for hover states */
+.shadow-glow-primary {
+  box-shadow: 0 0 20px rgba(30, 64, 175, 0.15); /* Blue glow */
+}
+
+.shadow-glow-accent {
+  box-shadow: 0 0 20px rgba(6, 182, 212, 0.15); /* Cyan glow */
 }
 
 @layer base {

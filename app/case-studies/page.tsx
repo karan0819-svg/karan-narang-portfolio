@@ -47,7 +47,7 @@ export default function CaseStudiesPage() {
         {caseStudyList.map((study) => (
           <Card
             key={study.slug}
-            className="flex flex-col h-full overflow-hidden transition-all duration-300 hover:shadow-xl hover:border-primary/50 group"
+            className="flex flex-col h-full overflow-hidden shadow-smooth hover:shadow-smooth-xl border-0 transition-all duration-300 hover:scale-[1.02] group"
           >
             <CardHeader className="p-6 pb-4">
               <div className="flex items-center gap-2 mb-2">
@@ -116,7 +116,7 @@ export default function CaseStudiesPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="mt-16 text-center bg-card border border-secondary rounded-2xl p-8 max-w-4xl mx-auto">
+      <section className="mt-16 text-center bg-gradient-to-br from-primary/8 via-secondary/8 to-accent/8 shadow-smooth-lg rounded-2xl p-8 max-w-4xl mx-auto">
         <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
           Want Results Like These?
         </h2>

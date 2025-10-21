@@ -81,17 +81,17 @@ export const ServicesSection = () => {
         {featureList.map(({ icon, title, image }) => (
           <Card
             key={title}
-            className="bg-slate-50 dark:bg-slate-800/50 border-slate-200 dark:border-slate-700 p-6 rounded-2xl shadow-sm hover:shadow-xl transition-shadow duration-300 flex flex-col"
+            className="bg-white p-6 rounded-2xl shadow-sm hover:shadow-xl transition-shadow duration-300 flex flex-col"
           >
             <CardHeader className="flex flex-row items-center gap-4 p-0 mb-6">
-              <div className="bg-slate-900 dark:bg-slate-950 p-3 rounded-lg">
+              <div className="bg-primary/10 p-3 rounded-lg">
                 <Icon
                   name={icon as keyof typeof icons}
                   size={28}
-                  className="text-white"
+                  className="text-primary"
                 />
               </div>
-              <CardTitle className="text-2xl font-bold text-slate-900 dark:text-slate-100">
+              <CardTitle className="text-2xl font-bold text-foreground">
                 {title}
               </CardTitle>
             </CardHeader>

@@ -12,12 +12,15 @@ import LinkedInIcon from "@/components/icons/linkedin-icon";
 
 export const FooterSection = () => {
   return (
-    <footer id="contact" className="container py-16 md:py-24">
-      <div className="p-8 bg-card border border-secondary rounded-2xl">
+    <footer
+      id="contact"
+      className="bg-gradient-to-br from-secondary/20 via-primary/15 to-secondary/25 py-16 md:py-24"
+    >
+      <div className="container">
         <div className="grid grid-cols-1 lg:grid-cols-2 md:grid-cols-4 gap-x-8 gap-y-6 lg:gap-x-10">
           <div className="col-span-full md:col-span-2">
             <Link href="/" className="flex font-bold items-center mb-4">
-              <ChevronsDownIcon className="w-9 h-9 mr-2 bg-gradient-to-tr from-primary via-primary/70 to-primary rounded-lg border border-secondary text-white" />
+              <ChevronsDownIcon className="w-9 h-9 mr-2 bg-gradient-to-tr from-primary via-secondary to-accent rounded-lg text-white" />
               <h3 className="text-2xl">Karan Narang</h3>
             </Link>
             <p className="text-muted-foreground mb-4">
@@ -109,8 +112,8 @@ export const FooterSection = () => {
           </div>
         </div>
 
-        <Separator className="my-6" />
-        <section className="flex flex-col sm:flex-row justify-between items-center gap-4">
+        <Separator className="my-8" />
+        <div className="flex flex-col sm:flex-row justify-between items-center gap-4">
           <p className="text-sm text-muted-foreground">
             &copy; 2025 All rights reserved by{" "}
             <Link
@@ -124,7 +127,7 @@ export const FooterSection = () => {
           <p className="text-sm text-muted-foreground">
             Performance Marketing Specialist | Meta Partner
           </p>
-        </section>
+        </div>
       </div>
     </footer>
   );

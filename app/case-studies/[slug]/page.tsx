@@ -115,7 +115,7 @@ export default function CaseStudyPage({ params }: CaseStudyPageProps) {
         <section className="mb-12">
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {caseStudy.metrics.map((metric) => (
-              <Card key={metric.label} className="text-center p-6">
+              <Card key={metric.label} className="text-center p-6 shadow-smooth hover:shadow-smooth-lg border-0 transition-all duration-300">
                 <CardContent className="p-0">
                   <p className="text-4xl md:text-5xl font-extrabold text-primary leading-none mb-2">
                     {metric.value}
@@ -133,7 +133,7 @@ export default function CaseStudyPage({ params }: CaseStudyPageProps) {
       {/* Challenge, Strategy, Results Sections */}
       <div className="grid lg:grid-cols-3 gap-6 mb-12">
         {caseStudy.challenge && (
-          <Card>
+          <Card className="shadow-smooth hover:shadow-smooth-lg border-0 transition-all duration-300">
             <CardHeader>
               <CardTitle className="text-2xl">The Challenge</CardTitle>
             </CardHeader>
@@ -146,7 +146,7 @@ export default function CaseStudyPage({ params }: CaseStudyPageProps) {
         )}
 
         {caseStudy.strategy && (
-          <Card>
+          <Card className="shadow-smooth hover:shadow-smooth-lg border-0 transition-all duration-300">
             <CardHeader>
               <CardTitle className="text-2xl">Our Strategy</CardTitle>
             </CardHeader>
@@ -159,7 +159,7 @@ export default function CaseStudyPage({ params }: CaseStudyPageProps) {
         )}
 
         {caseStudy.results && (
-          <Card>
+          <Card className="shadow-smooth hover:shadow-smooth-lg border-0 transition-all duration-300">
             <CardHeader>
               <CardTitle className="text-2xl">The Results</CardTitle>
             </CardHeader>
@@ -223,7 +223,7 @@ export default function CaseStudyPage({ params }: CaseStudyPageProps) {
       )}
 
       {/* CTA Section */}
-      <section className="bg-card border border-secondary rounded-2xl p-8 text-center mb-12">
+      <section className="bg-gradient-to-br from-primary/8 via-secondary/8 to-accent/8 shadow-smooth-lg rounded-2xl p-8 text-center mb-12">
         <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
           Want Similar Results for Your Brand?
         </h2>
@@ -249,7 +249,7 @@ export default function CaseStudyPage({ params }: CaseStudyPageProps) {
             {relatedStudies.map((study) => (
               <Card
                 key={study.slug}
-                className="hover:shadow-lg hover:border-primary/50 transition-all group"
+                className="shadow-smooth hover:shadow-smooth-lg border-0 transition-all duration-300 hover:scale-[1.02] group"
               >
                 <CardHeader>
                   <CardDescription className="text-sm font-medium text-primary mb-2">
