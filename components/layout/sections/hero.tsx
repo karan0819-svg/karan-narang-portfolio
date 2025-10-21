@@ -78,7 +78,7 @@ export const HeroSection = () => {
         <div className="mt-8 lg:mt-12">
           <div className="grid grid-cols-1 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
             {/* Column 1: Join Club Card */}
-            <div className="bg-[#1C1C1C] rounded-3xl col-span-2 text-white order-2 lg:order-1">
+            <div className="bg-[#1C1C1C] rounded-3xl col-span-2 text-white order-2 lg:order-1 self-end">
               <div className="bg-black p-6 rounded-2xl shadow-lg">
                 <img
                   src="https://cdn.prod.website-files.com/673ecf6617cdad8aa771d203/673ecf6717cdad8aa771d30e_hero-pattern.svg"
@@ -91,7 +91,7 @@ export const HeroSection = () => {
             </div>
 
             {/* Column 2: Analytics Cards */}
-            <div className="flex flex-col gap-6 order-1 lg:order-2">
+            <div className="flex flex-col gap-6 order-1 lg:order-2 self-end">
               <div className="bg-white rounded-2xl shadow-lg">
                 <img
                   src="https://cdn.prod.website-files.com/673ecf6617cdad8aa771d203/6741d29c26ff31bf5b49edf0_1.png"
