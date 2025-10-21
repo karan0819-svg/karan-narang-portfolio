@@ -30,13 +30,13 @@ export const caseStudyList: CaseStudy[] = [
     industry: "Fashion",
     title: "Generated ₹8.3L in 24 Hours Using Meta Ads",
     overview:
-      "On June 15th, 2025, we ran a high-performing one-day flash sale for an Indian apparel brand with a simple yet powerful offer: an entire collection priced at just ₹999 per product. The goal was to drive urgency and boost conversions within 24 hours. By launching Meta ad campaigns with broad targeting and mobile-optimized video creatives, we achieved explosive results, proving the power of a strong offer paired with a strategic ad approach.",
+      "On June 15th, 2025, I ran a high-performing one-day flash sale campaign for an Indian apparel brand. The offer was simple yet powerful an entire collection priced at just ₹999 per product. The goal was to drive urgency and boost conversions within 24 hours.",
     challenge:
-      "The brand wanted to clear inventory while maintaining profitability and creating a sense of urgency that would drive immediate purchases within a 24-hour window.",
+      "The brand typically generates around ₹50 lakh in monthly revenue, averaging ₹1.6 lakh per day. But this exclusive offer, paired with the right Meta ads strategy, helped us boost daily revenue by over 8 times a remarkable lift for the business. The average ticket size of their products is usually around ₹2,200, so the ₹999 offer created strong perceived value.​",
     strategy:
-      "We launched Meta ad campaigns with broad targeting to maximize reach, created mobile-optimized video creatives showcasing the collection, and implemented a countdown timer strategy to emphasize the limited-time nature of the offer. The campaigns were optimized for purchases with aggressive bidding.",
+      "To make this happen, I launched Meta ad campaigns using a mix of broad and interest-based targeting, supported by mobile-optimized video creatives. Campaigns were optimized for website purchases, with CBO (Campaign Budget Optimization) enabled to let the algorithm push budget to top-performing ad sets. One of the campaigns alone delivered a 27.5x ROAS, showcasing the power of scaling the right creative with the right audience.",
     results:
-      "The campaign generated ₹8.3 lakh in revenue in just 24 hours, achieving an 11.74x ROAS and an average cost per purchase of just ₹135. This represented an 8x boost compared to the brand's typical daily revenue.",
+      "By the end of the day, we had spent approximately ₹65K and generated ₹8.3 lakh in Shopify sales with over 512 orders. Out of these, 485 purchases came directly through Meta ads, while the remaining were driven by retention channels like repeat customers and returning traffic. The campaign maintained an average cost per purchase of ₹135.37, and the overall ROAS across campaigns stood at 11.74x. This campaign proved that with a strong offer, strategic targeting, and high-performing creatives, Meta ads can drive explosive results  even within a single day.​​",
     metrics: [
       { value: "8x", label: "Daily Revenue Boost" },
       { value: "11.74x", label: "Overall ROAS" },
@@ -51,13 +51,13 @@ export const caseStudyList: CaseStudy[] = [
     industry: "Fashion",
     title: "Consistent 4.5x ROAS on High Scale for 6 Months",
     overview:
-      "Over six months (Jan–July 2025), we maintained a consistently profitable ROAS for a Lingerie & Intimate Wear brand through a data-driven Meta ads strategy. In a category where the break-even ROAS is around 3, we achieved a sustained average of 4.5x. By scaling ad spend to approximately ₹75 lakh, we generated over 15,000 purchases while keeping acquisition costs efficient and predictable, leading to ₹3.3 crore in total revenue and ensuring steady profitability month over month.",
+      "Over the past 9 months (Jan–September 2025), I’ve been working with a Lingerie & Intimate Wear brand  where I’ve been able to consistently maintain a strong and profitable ROAS through a data-driven Meta ads strategy. In a category where the average break-even ROAS is around 3, we achieved a sustained average ROAS of 4.8x, highlighting the impact of structured campaign execution and ongoing optimization.",
     challenge:
       "The intimate wear category has higher acquisition costs and lower margins. Maintaining profitability while scaling required precise audience targeting and creative optimization to stay well above the 3x break-even ROAS.",
     strategy:
-      "We implemented a full-funnel approach with separate campaigns for prospecting, retargeting, and retention. Dynamic product ads were combined with lifestyle creatives, while continuous A/B testing ensured creative fatigue was minimized. Budget allocation was optimized daily based on performance data.",
+      "During this period, we scaled ad spend to approximately ₹1.3 crores and generated over 25,514 purchases with through Meta campaigns. The strategy combined broad targeting, retargeting funnels, and seasonal pushes, all backed by optimized creatives tailored to customer intent. Even at scale, we maintained an average cost per purchase of just ₹490,where average order value is 2000, keeping acquisition costs efficient and predictable.​",
     results:
-      "Sustained 4.5x ROAS over 6 months while scaling to ₹75 lakh in ad spend, generating ₹3.3 crore in revenue with 15,000+ purchases at an average cost per purchase of ₹490.",
+      "These campaigns led to ₹6.57 crore in total revenue, while ensuring steady profitability month over month. What makes this performance stand out is not just the numbers  but the sustained efficiency over time, in a category that’s both highly competitive and sensitive in nature. This journey proves that with the right blend of targeting, creative direction, and iterative testing, you can achieve long-term, profitable growth  not just short-term spikes.​",
     metrics: [
       { value: "4.5x", label: "Sustained ROAS" },
       { value: "₹3.3 Crore", label: "Total Revenue" },
@@ -72,13 +72,13 @@ export const caseStudyList: CaseStudy[] = [
     industry: "Fashion",
     title: "From Scratch to Scale in Under 18 Months",
     overview:
-      "We partnered with this ethnic wear brand in early 2024 at their online launch. By structuring a full-funnel Meta Ads setup, we built a strong foundation, generating over ₹20 lakh in net sales in the first year. In 2025, we doubled down on scaling, driving ₹50 lakh in net sales in just 6.5 months. This journey reflects our expertise in sustainable scaling, transforming a fresh brand into a strong D2C player generating over ₹70 lakh in combined net revenue.",
+      "I started working with this ethnic wear brand in early 2024 when they had just launched their online store . We structured a full-funnel Meta Ads setup ,installed pixel and conversion APIs, and ran cold-to-hot audience campaigns focused on catalog ads and creative storytelling.",
     challenge:
-      "Launching a new brand online with zero brand awareness and limited budget. The goal was to establish market presence while maintaining profitable unit economics from day one.",
+      "By the end of 2024, we had spent just ₹4.05 lakh on Meta Ads and generated 1,670 purchases at an impressive average ROAS of 6.42.. Gross sales on Shopify touched ₹31.61 lakh, with net sales of ₹20.51 lakh after accounting for returns and discounts. A total of 1,936 orders were placed and 1,003 were successfully fulfilled. This marked a successful foundation year with strong profitability and learnings.",
     strategy:
       "Started with a conservative budget focusing on testing audiences and creatives in 2024. Once we identified winning combinations, we aggressively scaled in 2025 with increased ad spend, catalog ads, and lookalike audiences while maintaining ROAS above 4.5x.",
     results:
-      "Generated ₹70+ lakh in combined revenue across 18 months, growing from ₹20 lakh (2024) to ₹50 lakh (Jan-July 2025). Average order value increased from ₹1,579 to ₹2,332, demonstrating brand strength and customer trust.",
+      "In 2025, we doubled down on scale. From January to mid-Oct alone, we spent ₹25.72 lakh and drove 5,829 purchases. Despite the broader targeting, we maintained a solid ROAS of 5.00, The brand hit ₹1.61 Crore in gross sales and crossed ₹1.10 Crore in Net sales in just 9 months. Orders placed grew to 5,829, with 4,715 fulfilled, showing improved delivery reliability and repeat customer interest. This journey reflects not just setup success but our expertise in sustainable scaling. We transformed a fresh brand into a strong D2C player in under 21 months, generating over ₹1.10 Crore in combined net revenue, backed by a well-tested and profitable Meta Ads ecosystem.",
     tableData: {
       headers: ["Metric", "2024", "2025 (Jan – July)"],
       rows: [
@@ -96,13 +96,13 @@ export const caseStudyList: CaseStudy[] = [
     industry: "Education",
     title: "High-Quality Leads for FirstCry School Launch",
     overview:
-      "When FirstCry, India's most trusted baby product brand, entered the preschool education space, they launched their Vizag center in 2022. We were tasked with generating high-quality leads for admissions. We launched 5 lead generation campaigns with hyperlocal targeting and creatives tailored for parents. Active for only 2 months each year before the admission cycle, these campaigns generated 653 high-intent Meta leads. CRM data confirmed a 5% lead-to-admission conversion rate, validating our strategy for time-sensitive, local lead generation.",
+      "When FirstCry, India’s most trusted baby product brand, entered the preschool education space, they launched their Vizag center in 2022. I was brought in to lead Meta Ads performance marketing with a focused goal ,  generate high-quality leads and build strong visibility for admissions in a city where the preschool offering was still new.​",
     challenge:
       "Generate high-quality, geographically targeted leads for a premium preschool in a competitive market, with a limited campaign window aligned with the admission cycle.",
     strategy:
-      "Implemented hyperlocal targeting within a 5km radius of the Vizag center, created parent-focused ad creatives highlighting safety, curriculum, and FirstCry's brand trust. Used lead forms with qualifying questions to ensure lead quality. Campaigns ran intensively for 2 months before admission deadlines.",
+      "We launched and managed 5 lead generation campaigns using the highest volume bidding strategy and hyperlocal targeting around Vizag. Creatives were tailored for parents of toddlers, highlighting the FirstCry legacy and the preschool’s USPs. Across these campaigns, we generated 653 Meta leads, reaching over 5.16 lakh people, all within a total spend of ₹1.20 lakh.",
     results:
-      "Generated 653 high-quality Meta leads with a 5% lead-to-admission conversion rate (33 admissions), reaching over 5.16 lakh people. Achieved a cost per lead as low as ₹95.89, making it highly cost-effective for premium education lead generation.",
+      "Notably, the campaigns were active for only 2 months each year, just before the annual admission cycle  making precision targeting and timely execution crucial. The best-performing ad set delivered 301 leads at just ₹95.89 per lead. According to CRM data from the center, 5% of these leads converted into actual preschool admissions, validating both lead quality and strategy alignment.This campaign reflects my expertise in running time-sensitive, high-impact local lead generation, aligned with offline admission workflows  delivering measurable results even within a short window.​",
     metrics: [
       { value: "653", label: "Meta Leads Generated" },
       { value: "5%", label: "Lead to Admission Rate" },

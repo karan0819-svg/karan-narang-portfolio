@@ -4,36 +4,58 @@ import { Marquee } from "@devnomic/marquee";
 import "@devnomic/marquee/dist/index.css";
 
 interface sponsorsProps {
+  image: string;
   name: string;
 }
 
 const sponsors: sponsorsProps[] = [
   {
-    name: "UDHHU",
-  },
-  {
-    name: "HYPEDEVI",
-  },
-  {
+    image: "https://i.postimg.cc/ht5jL08P/balfe.jpg",
     name: "Balfe",
   },
   {
-    name: "WorkSpaceCo.",
+    image: "https://i.postimg.cc/qM7413MP/Teesa-Home.jpg",
+    name: "Teesa Home",
   },
   {
-    name: "WESTCODE",
+    image: "https://i.postimg.cc/0jyRXTxC/HypeDevi.jpg",
+    name: "HypeDevi",
   },
   {
-    name: "SILBERRY",
+    image: "https://i.postimg.cc/nLJWwyGT/House-Of-Kirti.jpg",
+    name: "House Of Kirti",
   },
   {
-    name: "STEPLE",
+    image: "https://i.postimg.cc/8z8Xj29N/Fabister.jpg",
+    name: "Fabister",
   },
   {
-    name: "UDHHU",
+    image: "https://i.postimg.cc/nVNfGwg9/GritPro.jpg",
+    name: "GritPro",
   },
   {
-    name: "HYPEDEVI",
+    image: "https://i.postimg.cc/B6ykNXYZ/Silberry.jpg",
+    name: "Silberry",
+  },
+  {
+    image: "https://i.postimg.cc/s2gLrpbY/House-Of-Zavi.jpg",
+    name: "House Of Zavi",
+  },
+  {
+    image: "https://i.postimg.cc/ZKPsv7Sv/Amoshh.jpg",
+    name: "Amoshh",
+  },
+  {
+    image: "https://i.postimg.cc/MH75RThW/Phooldhaage.webp",
+    name: "Phooldhaage",
+  },
+  {
+    image: "https://i.postimg.cc/pTNKZvQx/Zilaire.jpg",
+    name: "Zilaire",
+  },
+  {
+    image: "https://i.postimg.cc/TwrNjCDq/naaptol.jpg",
+    name: "Naaptol",
   },
 ];
 
@@ -51,12 +73,16 @@ export const SponsorsSection = () => {
           innerClassName="gap-[4rem]"
           pauseOnHover
         >
-          {sponsors.map(({ name }, index) => (
+          {sponsors.map(({ image, name }, index) => (
             <div
-              key={`${name}-${index}`}
+              key={`${image}-${index}`}
               className="flex items-center text-xl md:text-2xl font-bold tracking-wider text-foreground/70 hover:text-foreground transition-colors"
             >
-              {name}
+              <img
+                src={image}
+                alt={name}
+                className="w-32 h-32 object-contain bg-white"
+              />
             </div>
           ))}
         </Marquee>
