@@ -37,10 +37,10 @@ export const BenefitsSection = () => {
             <Link href="#contact">Schedule a Free Consultation</Link>
           </Button>
           {/* <a
-            href="mailto:info@growwithkarannarang.in"
+            href="mailto:info@growwithvrajchoksi.com"
             className="text-sm font-medium text-muted-foreground transition-colors hover:text-primary"
           >
-            info@growwithkarannarang.in
+            info@growwithvrajchoksi.com
           </a> */}
         </div>
       </div>

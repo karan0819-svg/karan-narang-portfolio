@@ -130,8 +130,8 @@ Existing components are located in `components/ui/` and follow shadcn/ui convent
 ## Contact Information
 
 The website uses the following contact details:
-- Email: info@growwithkarannarang.in
-- Phone: +91 63533 61180
+- Email: info@growwithvrajchoksi.com
+- Phone: +91 97127 14560
 - WhatsApp: https://wa.me/916353361180
 - LinkedIn: https://www.linkedin.com/in/karan-narang-744496225/
 

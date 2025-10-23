@@ -12,50 +12,18 @@ interface FeaturesProps {
 
 const featureList: FeaturesProps[] = [
   {
-    icon: "BrainCircuit",
-    title: "Data-Driven Strategy",
+    icon: "Target",
+    title: "Performance Marketing (Meta and Google Ads)",
     description:
-      "Every campaign is built on a foundation of data, from audience insights to market trends, ensuring your budget is invested for maximum impact.",
+      "Data-driven campaigns on Meta and Google Ads platforms designed to maximize ROAS and drive measurable growth for your business.",
     image:
       "https://cdn.prod.website-files.com/673ecf6717cdad8aa771d297/67456e9d3c5e5401826c5ccf_retention%20marketing.jpg",
   },
   {
-    icon: "TrendingUp",
-    title: "ROAS-Focused Scaling",
+    icon: "Sparkles",
+    title: "Creative Strategy",
     description:
-      "Growth is about scaling profitably. We meticulously monitor Return on Ad Spend (ROAS) to scale your campaigns aggressively without sacrificing efficiency.",
-    image:
-      "https://cdn.prod.website-files.com/673ecf6717cdad8aa771d297/67456e9d3c5e5401826c5ccf_retention%20marketing.jpg",
-  },
-  {
-    icon: "Waypoints",
-    title: "Full-Funnel Mastery",
-    description:
-      "From building brand awareness to driving final conversions and retargeting, we manage the entire customer journey to ensure no opportunity is missed.",
-    image:
-      "https://cdn.prod.website-files.com/673ecf6717cdad8aa771d297/67456e9d3c5e5401826c5ccf_retention%20marketing.jpg",
-  },
-  {
-    icon: "WandSparkles",
-    title: "High-Impact Creatives",
-    description:
-      "Your ads need to stop the scroll. We focus on developing compelling, mobile-first creatives that resonate with your audience and drive action.",
-    image:
-      "https://cdn.prod.website-files.com/673ecf6717cdad8aa771d297/67456e9d3c5e5401826c5ccf_retention%20marketing.jpg",
-  },
-  {
-    icon: "Cog",
-    title: "Advanced Technical Setup",
-    description:
-      "We ensure flawless tracking with expert implementation of Meta Pixel, Conversion APIs, and catalog ads for a robust advertising ecosystem.",
-    image:
-      "https://cdn.prod.website-files.com/673ecf6717cdad8aa771d297/67456e9d3c5e5401826c5ccf_retention%20marketing.jpg",
-  },
-  {
-    icon: "Handshake",
-    title: "A True Growth Partner",
-    description:
-      "We work as an extension of your team, providing transparent communication and a genuine commitment to helping your business achieve its goals.",
+      "High-impact, scroll-stopping creatives that resonate with your audience and drive conversions across all digital platforms.",
     image:
       "https://cdn.prod.website-files.com/673ecf6717cdad8aa771d297/67456e9d3c5e5401826c5ccf_retention%20marketing.jpg",
   },

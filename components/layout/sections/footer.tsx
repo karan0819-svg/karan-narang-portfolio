@@ -73,11 +73,11 @@ export const FooterSection = () => {
             <div className="flex items-center gap-2">
               <Mail className="size-4" />
               <Link
-                href="mailto:info@growwithkarannarang.in"
-                title="info@growwithkarannarang.in"
+                href="mailto:info@growwithvrajchoksi.com"
+                title="info@growwithvrajchoksi.com"
                 className="block sm:max-w-[120px] md:max-w-[250px] truncate opacity-60 hover:opacity-100 transition-opacity text-sm"
               >
-                info@growwithkarannarang.in
+                info@growwithvrajchoksi.com
               </Link>
             </div>
             <div className="flex items-center gap-2">
@@ -86,7 +86,7 @@ export const FooterSection = () => {
                 href="tel:+916353361180"
                 className="opacity-60 hover:opacity-100 transition-opacity text-sm"
               >
-                +91 63533 61180
+                +91 97127 14560
               </Link>
             </div>
             <div className="flex items-center gap-2">

@@ -17,6 +17,7 @@ import {
 } from "lucide-react";
 import Link from "next/link";
 import type { Metadata } from "next";
+import { CalendlyWidget } from "@/components/ui/calendly-widget";
 
 export const metadata: Metadata = {
   title: "Book a Call - Let's Grow Your Brand Together",
@@ -61,22 +62,7 @@ export default function BookACallPage() {
               </CardDescription>
             </CardHeader>
             <CardContent>
-              {/* Placeholder for Calendly/Cal.com embed */}
-              <div className="bg-muted/30 rounded-lg p-12 text-center min-h-[500px] flex flex-col items-center justify-center">
-                <Calendar className="size-16 text-muted-foreground mb-4" />
-                <p className="text-muted-foreground mb-6">
-                  Calendar integration coming soon
-                </p>
-                <p className="text-sm text-muted-foreground mb-8">
-                  In the meantime, please use one of the contact methods below
-                  to schedule your consultation.
-                </p>
-                {/*
-                  To integrate Calendly, add:
-                  <div className="calendly-inline-widget" data-url="YOUR_CALENDLY_URL" style={{minWidth: '320px', height: '630px'}}></div>
-                  And include the Calendly script in your layout or use a React component
-                */}
-              </div>
+              <CalendlyWidget url="https://calendly.com/growwithvrajchoksi-info/30min" />
             </CardContent>
           </Card>
         </div>
@@ -131,9 +117,9 @@ export default function BookACallPage() {
                 Send me a detailed email about your project
               </p>
               <Button asChild variant="outline" className="w-full">
-                <Link href="mailto:info@growwithkarannarang.in">
+                <Link href="mailto:info@growwithvrajchoksi.com">
                   <Mail className="mr-2 size-4" />
-                  info@growwithkarannarang.in
+                  info@growwithvrajchoksi.com
                 </Link>
               </Button>
             </CardContent>
@@ -156,7 +142,7 @@ export default function BookACallPage() {
               <Button asChild variant="outline" className="w-full">
                 <Link href="tel:+916353361180">
                   <Phone className="mr-2 size-4" />
-                  +91 63533 61180
+                  +91 97127 14560
                 </Link>
               </Button>
             </CardContent>
