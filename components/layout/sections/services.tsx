@@ -55,6 +55,7 @@ export const ServicesSection = () => {
               <div className="bg-primary/10 p-3 rounded-lg">
                 <Icon
                   name={icon as keyof typeof icons}
+                  color="hsl(var(--primary))"
                   size={28}
                   className="text-primary"
                 />
