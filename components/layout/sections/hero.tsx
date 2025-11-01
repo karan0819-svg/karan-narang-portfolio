@@ -33,7 +33,7 @@ export const HeroSection = () => {
             </div>
 
             <div className="lg:w-[70%] md:w-[50%] flex flex-col gap-5 ">
-              <p className="text-xl text-slate-900 leading-relaxed">
+              <div className="text-xl text-slate-900 leading-relaxed">
                 <p className="text-[28px] mb-1">
                   Hi, I’m{" "}
                   <strong className="text-foreground">Vraj Choksi.</strong>
@@ -48,7 +48,7 @@ export const HeroSection = () => {
                 </p>
                 Looking to grow your brand?
                 <strong className="text-foreground"> Let’s connect!</strong>
-              </p>
+              </div>
               <div className="flex gap-4 self-center lg:self-start">
                 <Button
                   asChild
