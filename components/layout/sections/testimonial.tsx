@@ -31,7 +31,10 @@ export const CaseStudySection = () => {
   const featuredCases = getFeaturedCaseStudies();
 
   return (
-    <section id="case-studies" className="container py-16 md:py-24 bg-secondary/5">
+    <section
+      id="case-studies"
+      className="container py-16 md:py-24 bg-secondary/5"
+    >
       <div className="text-center mb-8">
         <h2 className="text-sm text-primary uppercase tracking-widest font-semibold mb-2">
           Case Studies
@@ -46,7 +49,7 @@ export const CaseStudySection = () => {
       </div>
 
       {/* 3-Column Grid Layout */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-7xl mx-auto">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 max-w-7xl mx-auto">
         {/* --- COLUMN 1 --- */}
         <div className="flex flex-col gap-6">
           {/* Card 1 */}
@@ -105,7 +108,7 @@ export const CaseStudySection = () => {
 
         {/* --- COLUMN 3: TALL IMAGE CARD --- */}
         {/* This card is visible on medium screens and up, and spans the full height of the grid */}
-        {featuredCases[3] && (
+        {/* {featuredCases[3] && (
           <Link
             href={`/case-studies/${featuredCases[3].slug}`}
             className="md:col-span-2 lg:col-span-1 h-full min-h-[300px] lg:min-h-0"
@@ -117,7 +120,6 @@ export const CaseStudySection = () => {
                 fill
                 className="object-cover transition-transform duration-500 group-hover:scale-105"
               />
-              {/* Gradient overlay for text readability */}
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent" />
               <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
                 <Badge variant="secondary" className="uppercase text-xs mb-2">
@@ -129,7 +131,7 @@ export const CaseStudySection = () => {
               </div>
             </Card>
           </Link>
-        )}
+        )} */}
       </div>
 
       {/* View All CTA */}

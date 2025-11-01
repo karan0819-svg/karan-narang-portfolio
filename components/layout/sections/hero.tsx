@@ -21,44 +21,64 @@ export const HeroSection = () => {
           </Badge>
         </div>
         <div className="flex flex-col lg:!flex-row items-center lg:items-start justify-between text-center lg:text-left gap-6">
-          <div className=" sm:max-w-[560px]">
-            <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-[80px] font-extrabold leading-tight max-w-[585px]">
-              Scaling D2C Ecommerce Brands to{" \n"}
-              <br />
-              <span className="text-transparent bg-gradient-to-r from-[#1E40AF] via-[#3B82F6] to-[#06B6D4] bg-clip-text">
-                New Heights
-              </span>
-            </h1>
-          </div>
-
-          <div className="lg:w-[35%] md:w-[50%] flex flex-col gap-4 ">
-            <p className="text-xl text-muted-foreground leading-relaxed">
-              We're a premium e-commerce agency and{" "}
-              <strong className="text-foreground">Trusted Meta Partner</strong>,
-              driving over{" "}
-              <strong className="text-foreground">₹175 Crore+</strong> in
-              revenue for brands. Data-driven strategies that turn ad spend into
-              measurable growth.
-            </p>
-            <div className="flex gap-4 self-center lg:self-start">
-              <Button
-                asChild
-                className="font-bold group/arrow text-white text-sm md:text-base lg:text-lg px-4 py-2 md:px-6 md:py-3"
-              >
-                <Link href="/book-a-call">
-                  Book a Call
-                  <ArrowRight className="size-5 ml-2 group-hover/arrow:translate-x-1 transition-transform" />
-                </Link>
-              </Button>
-
-              <Button
-                asChild
-                variant="outline"
-                className="font-bold text-sm md:text-base lg:text-lg px-4 py-2 md:px-6 md:py-3"
-              >
-                <Link href="/case-studies">Case Studies</Link>
-              </Button>
+          <div className="flex flex-col gap-10">
+            <div className=" sm:max-w-[560px]">
+              <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-[80px] font-extrabold leading-tight max-w-[585px]">
+                Scaling D2C Ecommerce Brands to{" \n"}
+                <br />
+                <span className="text-transparent bg-gradient-to-r from-[#1E40AF] via-[#3B82F6] to-[#06B6D4] bg-clip-text">
+                  New Heights
+                </span>
+              </h1>
             </div>
+
+            <div className="lg:w-[70%] md:w-[50%] flex flex-col gap-5 ">
+              <p className="text-xl text-slate-900 leading-relaxed">
+                <p className="text-[28px] mb-1">
+                  Hi, I’m{" "}
+                  <strong className="text-foreground">Vraj Choksi.</strong>
+                </p>
+                <p className="mb-1">
+                  I specialize in performance marketing and have scaled D2C
+                  brands to{" "}
+                  <strong className="text-foreground">
+                    ₹75 Crore+ in revenue{" "}
+                  </strong>
+                  with data-driven strategies.
+                </p>
+                Looking to grow your brand?
+                <strong className="text-foreground"> Let’s connect!</strong>
+              </p>
+              <div className="flex gap-4 self-center lg:self-start">
+                <Button
+                  asChild
+                  className="font-bold group/arrow text-white text-sm md:text-base lg:text-lg px-4 py-2 md:px-6 md:py-3"
+                >
+                  <Link href="/book-a-call">
+                    Book a Call
+                    <ArrowRight className="size-5 ml-2 group-hover/arrow:translate-x-1 transition-transform" />
+                  </Link>
+                </Button>
+
+                <Button
+                  asChild
+                  variant="outline"
+                  className="font-bold text-sm md:text-base lg:text-lg px-4 py-2 md:px-6 md:py-3"
+                >
+                  <Link href="/case-studies">Case Studies</Link>
+                </Button>
+              </div>
+            </div>
+          </div>
+          <div className="w-full h-full">
+            <img
+              // src="https://i.postimg.cc/7hcwPRC0/vraj-choksi.png"
+              src="https://i.postimg.cc/sfnNQST0/vraj-choksi-1.png"
+              alt="Total Sales Analytics Graph"
+              width={1000}
+              height={950}
+              className="rounded-lg"
+            />
           </div>
         </div>
 
@@ -79,13 +99,14 @@ export const HeroSection = () => {
           <div className="grid grid-cols-1 lg:grid-cols-4 gap-6 max-w-7xl mx-auto">
             {/* Column 1: Join Club Card */}
             <div className="bg-[#1C1C1C] rounded-3xl col-span-2 text-white order-2 lg:order-1 self-end">
-              <div className="bg-black p-6 rounded-2xl shadow-lg">
+              <div className="bg-[#302f2f] p-6 rounded-2xl shadow-lg">
                 <img
-                  src="https://cdn.prod.website-files.com/673ecf6617cdad8aa771d203/673ecf6717cdad8aa771d30e_hero-pattern.svg"
+                  // src="https://cdn.prod.website-files.com/673ecf6617cdad8aa771d203/673ecf6717cdad8aa771d30e_hero-pattern.svg"
+                  src="https://i.postimg.cc/nVSMRFF2/hero-blac-banner-1.png"
                   alt="Total Sales Analytics Graph"
                   width={700}
                   height={250}
-                  className="rounded-lg"
+                  className="rounded-[25px] overflow-hidden"
                 />
               </div>
             </div>
@@ -116,7 +137,7 @@ export const HeroSection = () => {
             <div className="flex flex-col gap-6 order-3 lg:order-3 ">
               <div className="bg-black rounded-2xl shadow-2xl">
                 <img
-                  src="https://cdn.prod.website-files.com/673ecf6617cdad8aa771d203/6768f3fa08f8dace3e6ae3c5_Hero%20Primary%20Image%201.avif"
+                  src="https://i.postimg.cc/wjym9Krt/creative-ideation.jpg"
                   alt="Instagram Reels Ad Example"
                   width="100%"
                   height="100%"

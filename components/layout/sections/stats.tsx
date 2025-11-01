@@ -11,23 +11,25 @@ interface StatProps {
 const stats: StatProps[] = [
   {
     icon: <TrendingUp className="size-8 md:size-10" />,
-    value: "40CR+",
-    label: "Spend on Ads",
+    value: "15CR+",
+    label: "Spend",
   },
   {
     icon: <DollarSign className="size-8 md:size-10" />,
-    value: "175CR+",
-    label: "Revenue Created",
+    value: "75CR+",
+    label: "Sales",
   },
   {
     icon: <Package className="size-8 md:size-10" />,
     value: "15+",
-    label: "Ecommerce Niches",
+    // label: "Ecommerce Niches",
+    label: "",
   },
   {
     icon: <Award className="size-8 md:size-10" />,
-    value: "5YR+",
-    label: "Years Experience",
+    value: "3YR+",
+    // label: "Years Experience",
+    label: "Years",
   },
 ];
 

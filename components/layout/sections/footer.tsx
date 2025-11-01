@@ -77,7 +77,7 @@ export const FooterSection = () => {
                 title="info@growwithvrajchoksi.com"
                 className="block sm:max-w-[120px] md:max-w-[250px] truncate opacity-60 hover:opacity-100 transition-opacity text-sm"
               >
-                info@growwithvrajchoksi.com
+                contact@growwithvrajchoksi.com
               </Link>
             </div>
             <div className="flex items-center gap-2">
@@ -92,7 +92,7 @@ export const FooterSection = () => {
             <div className="flex items-center gap-2">
               <MessageCircle className="size-4" />
               <Link
-                href="https://wa.me/916353361180"
+                href="https://wa.me/918141483635"
                 target="_blank"
                 className="opacity-60 hover:opacity-100 transition-opacity text-sm"
               >
@@ -102,7 +102,7 @@ export const FooterSection = () => {
             <div className="flex items-center gap-2">
               <Linkedin className="size-4" />
               <Link
-                href="https://www.linkedin.com/in/karan-narang-744496225/"
+                href="https://www.linkedin.com/in/vraj-choksi-13593a188/"
                 target="_blank"
                 className="opacity-60 hover:opacity-100 transition-opacity text-sm"
               >
@@ -118,7 +118,7 @@ export const FooterSection = () => {
             &copy; 2025 All rights reserved by{" "}
             <Link
               target="_blank"
-              href="https://www.linkedin.com/in/karan-narang-744496225/"
+              href="https://www.linkedin.com/in/vraj-choksi-13593a188/"
               className="text-primary hover:underline"
             >
               Vraj Choksi

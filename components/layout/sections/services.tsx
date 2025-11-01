@@ -16,16 +16,14 @@ const featureList: FeaturesProps[] = [
     title: "Performance Marketing (Meta and Google Ads)",
     description:
       "Data-driven campaigns on Meta and Google Ads platforms designed to maximize ROAS and drive measurable growth for your business.",
-    image:
-      "https://cdn.prod.website-files.com/673ecf6717cdad8aa771d297/67456e9d3c5e5401826c5ccf_retention%20marketing.jpg",
+    image: "https://i.postimg.cc/XqBZKmyz/banner-2.png",
   },
   {
     icon: "Sparkles",
     title: "Creative Strategy",
     description:
       "High-impact, scroll-stopping creatives that resonate with your audience and drive conversions across all digital platforms.",
-    image:
-      "https://cdn.prod.website-files.com/673ecf6717cdad8aa771d297/67456e9d3c5e5401826c5ccf_retention%20marketing.jpg",
+    image: "https://i.postimg.cc/JhKBRb8V/banner-1.png",
   },
 ];
 

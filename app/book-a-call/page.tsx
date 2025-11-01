@@ -94,7 +94,7 @@ export default function BookACallPage() {
                 Get an instant response on WhatsApp
               </p>
               <Button asChild variant="outline" className="w-full">
-                <Link href="https://wa.me/916353361180" target="_blank">
+                <Link href="https://wa.me/918141483635" target="_blank">
                   <MessageCircle className="mr-2 size-4" />
                   Chat on WhatsApp
                 </Link>
@@ -119,7 +119,7 @@ export default function BookACallPage() {
               <Button asChild variant="outline" className="w-full">
                 <Link href="mailto:info@growwithvrajchoksi.com">
                   <Mail className="mr-2 size-4" />
-                  info@growwithvrajchoksi.com
+                  hello@growwithvrajchoksi.com
                 </Link>
               </Button>
             </CardContent>
@@ -140,9 +140,9 @@ export default function BookACallPage() {
                 Prefer to talk directly? Give me a call
               </p>
               <Button asChild variant="outline" className="w-full">
-                <Link href="tel:+916353361180">
+                <Link href="tel:+918141483635">
                   <Phone className="mr-2 size-4" />
-                  +91 97127 14560
+                  +91 81414 83635
                 </Link>
               </Button>
             </CardContent>
